@@ -58,7 +58,7 @@ const Tasks: FC<TasksProps> = ({ tasks }) => {
 
   return(
     <section className="section">
-      <h2 className="is-size-4 has-text-centered">List of tasks in selected list</h2>
+      <h2 className="is-size-4 has-text-centered">Lista de tarefas selecionadas</h2>
       {tasks.length === 0 ? <p className="py-4 has-text-centered">No Tasks</p> : tasksTable}
     </section>
   );
