@@ -37,7 +37,7 @@ export interface Lists {
 interface AddListAction {
   type: typeof ADD_LIST;
   payload: List;
-} 
+}
 
 interface GetListsAction {
   type: typeof GET_LISTS;
